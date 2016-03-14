@@ -1,5 +1,5 @@
 {
-  "name": "ember-repo-template",
+  "name": "ember-template",
   "dependencies": {
     "ember": "2.2.0",
     "ember-cli-shims": "0.0.6",

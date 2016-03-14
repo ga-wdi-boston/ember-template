@@ -1,7 +1,7 @@
 {
-  "name": "ember-repo-template",
+  "name": "ember-template",
   "version": "0.0.0",
-  "description": "Small description for ember-repo-template goes here",
+  "description": "Small description for ember-template goes here",
   "private": true,
   "directories": {
     "doc": "doc",
