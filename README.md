@@ -25,7 +25,13 @@ other customizations, including Bootstrap.
 1.  Unzip and rename the template directory.
 1.  Empty [`README.md`](README.md) and fill with your own content.
 1.  Move into the new project and `git init`.
-1.  Install dependencies with `npm install`.
+1.  Replace all instances of `'ember-template'` with your app name. This
+    includes [`package.json`](package.json), [`bower.json`](bower.json),
+    [`app/index.html`](app/index.html), [`tests/index.html`](tests/index.html),
+    and [`config/environment.js`](config/environment.js), possibly others.
+1.  Install dependencies with `npm install` and `bower install`.
+1.  Run the development server with `ember server`. Use the `--proxy` flag to
+    avoid writing development-specific CORS and CSP settings.
 
 ## Structure
 
