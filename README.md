@@ -3,7 +3,7 @@
 # ember-template
 
 A template for starting projects with Ember as a client. Build pipeline and
-development server provided by `ember-cli`. Bootstrap included.
+development server provided by `ember-cli`. Bootstrap and Sass included.
 
 ## Dependencies
 
