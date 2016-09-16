@@ -30,6 +30,10 @@ module.exports = function (environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    let port = +('GA'.split('').reduce((p, c) =>
+      p + c.charCodeAt().toString(16), '')
+    );
+    ENV.apiHost = `http://localhost:${port}/`;
   }
 
   if (environment === 'test') {
