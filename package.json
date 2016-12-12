@@ -1,7 +1,7 @@
 {
   "name": "ga-wdi-boston.ember-template",
-  "version": "0.0.0",
-  "description": "Small description for ga-wdi-boston.ember-template goes here",
+  "version": "0.0.1",
+  "description": "A template for creating ember apps",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -17,7 +17,10 @@
     "node": ">= 0.10.0"
   },
   "author": "",
-  "license": "MIT",
+  "license": {
+    "software": "GNU GPLv3",
+    "content": "CC­BY­NC­SA 4.0"
+  },
   "devDependencies": {
     "active-model-adapter": "^2.1.1",
     "broccoli-asset-rev": "^2.4.2",
