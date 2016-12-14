@@ -5,6 +5,29 @@
 A template for starting projects with Ember as a client. Build pipeline and
 development server provided by `ember-cli`. Bootstrap and Sass included.
 
+## Updating Dependencies
+
+At the beginning of each cohort update [`package.json`](package.json):
+### npm
+-   replace all dependent package versions in `package.json` with a glob (`*`).
+-   `rm -r node_modules`.
+-   `npm update --save`.
+-   `npm update --save-dev`.
+-   `npm install`
+
+### bower
+Currently bower [cannot automatically save updated versions](https://github.com/bower/bower/issues/2348) to `bower.json`.
+
+-   `rm -r bower_components`
+-   `bower update`
+-   `bower list`
+-   Take the new version numbers from the top level of the list and paste
+    them into `bower.json`
+-   `bower install`
+-   `ember test`
+
+Fix errors and conflicts as necessary.
+
 ## Dependencies
 
 Install build dependencies with `npm install`. Install runtime dependencies with
