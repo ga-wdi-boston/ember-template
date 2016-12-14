@@ -32,6 +32,8 @@ Fix errors and conflicts as necessary.
 
 Install build dependencies with `npm install`. Install runtime dependencies with
 `bower install`.
+If you have not installed phantomjs, you will need to install it globally:
+`npm install --global phantomjs-prebuil`
 
 -   [ember.js](http://emberjs.com/)
 -   [ember-cli](http://www.ember-cli.com/)
