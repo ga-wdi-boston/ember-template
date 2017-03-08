@@ -7,5 +7,4 @@
   */
   "disableAnalytics": true,
   "port": 7165,  // +('GA'.split('').reduce((p, c)=> p + c.charCodeAt(), ''));
-  "usePods": true
 }
