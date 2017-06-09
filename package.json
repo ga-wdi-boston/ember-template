@@ -53,5 +53,8 @@
     "load-grunt-config": "^0.19.2",
     "loader.js": "^4.1.0",
     "time-grunt": "^1.4.0"
+  },
+  "dependencies": {
+    "grunt-shell": "^2.1.0"
   }
 }
